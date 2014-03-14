@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="matrixStyle.css"/>
+ <script type="text/javascript" src="matrixB.js"></script>
+</head>
+<title>Bubble Matrix</title>
+<body onload="draw();">
+	<canvas id="tutorial" width="600" height="400"></canvas>
+	<div>
+		<img id="backgroundBlue" src="background.png" width="600" height="400">
+	</div>
+</body>
+</html>
