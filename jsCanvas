@@ -1,0 +1,7 @@
+// creating the canvas 
+function draw() {
+	var canvas = document.getElementById("tutorial");
+	if (canvas.getContext) {
+		var typeCanvas = canvas.getContext("2d");
+		}
+	}
