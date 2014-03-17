@@ -1,0 +1,18 @@
+var stage, image, fpstext;
+function init() {
+	stage = new createjs.Stage(id("tutorial"));
+	image = new createjs.Bitmap("assets/hill.png);
+	stage.addChild(image);
+	createjs.Ticker.setFPS(30);
+	createjs.Ticker.addEventListener("tick", tick);
+}
+
+	var stage, player, playerImage, _action;
+	var playerWH = 64;
+	var frequency = 4;
+	function init() {
+		playerImage = new Image();
+		playerImage.src = "assets/Player.png";
+		playerImage.onload = start;
+	}
+	// practicing new stuff 
