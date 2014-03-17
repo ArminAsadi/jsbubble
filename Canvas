@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="matrixStyle.css"/>
+ <script type="text/javascript" src="matrixB.js"></script>
+ <script type="text/javascript" src="js/easeljs/geom/Matrix2D.js"></script>
+ <!-- from codeproject.com ease.js -->
+<script type="text/javascript" src="js/easeljs/geom/Rectangle.js"></script>
+<script type="text/javascript" src="js/easeljs/events/EventDispatcher.js"></script>
+<script type="text/javascript" src="js/easeljs/utils/UID.js"></script>
+<script type="text/javascript" src="js/easeljs/utils/Ticker.js"></script>
+<script type="text/javascript" src="js/easeljs/utils/SpriteSheetUtils.js"></script>
+<script type="text/javascript" src="js/easeljs/display/DisplayObject.js"></script>
+<script type="text/javascript" src="js/easeljs/display/Container.js"></script>
+<script type="text/javascript" src="js/easeljs/display/Stage.js"></script>
+<script type="text/javascript" src="js/easeljs/display/SpriteSheet.js"></script>
+<script type="text/javascript" src="js/easeljs/display/BitmapAnimation.js"></script>
+<script type="text/javascript" src="js/easeljs/display/Graphics.js"></script>
+<script type="text/javascript" src="js/easeljs/display/Bitmap.js"></script>
+<script type="text/javascript" src="js/easeljs/display/Text.js"></script> <span style="font-size: 9pt;"> </span> 
+</head>
+
+<title>Bubble Matrix</title>
+<body onload="draw();">
+	<canvas id="tutorial" width="600" height="400"></canvas>
+</body>
+</html>
